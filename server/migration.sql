@@ -26,24 +26,11 @@ CREATE TABLE  site_user (
     password Text NOT null
 );
 
-------test data------
 
------- test category -----
---INSERT INTO category (category_name) VALUES ('Test category');
-
------ test item ------
--- INSERT INTO item (item_name, item_brand, item_category, item_price, item_type, item_description) VALUES ('Test Items', 'Test Breand', 1, 1999, 'Test Hammer', 'put all  the nails you want with this tool');
-
------- test user ------ 
---INSERT INTO site_user (username, password) VALUES ('TEST', '123')
-
------items-----
 INSERT INTO item (item_name, item_image, item_brand, item_category, item_price, item_type, item_description) VALUES ('Profile 27.9 cu. ft. Smart 4-Door French Door Refrigerator with Door in Door in Fingerprint Resistant Stainless Steel', 'https://images.thdstatic.com/productImages/e0992f31-7411-415c-8860-be62d86f2d49/svn/fingerprint-resistant-stainless-steel-ge-profile-french-door-refrigerators-pvd28bynfs-64_300.jpg', 'GE', 1, 4199.00, 'Refrigerator', "Built on the belief that modern life needs modern solutions. GE Profile Appliances are designed to make daily life simpler by incorporating Smart Home technology and cutting-edge features in every appliance. GE Profile's sleek design and quality engineering will give your kitchen the most up-to-date look and the best innovative performance you've been looking for.");
 
 INSERT INTO item (item_name, item_image, item_brand, item_category, item_price, item_type, item_description) VALUES ('Cursiva Single Hole Single-Handle Bathroom Faucet in Vibrant Brushed Nickel', 'https://images.thdstatic.com/productImages/1278988d-9b35-4152-9173-9bd53d69896c/svn/vibrant-brushed-nickel-kohler-single-hole-bathroom-faucets-k-r30577-4d-bn-64_100.jpg', 'KOHLER', 2, 149.00, 'Single-Handle Bathroom Faucet', 'The K-R30577-4D single-handle bathroom sink with lever handle has a warm, contemporary design. Cursiva pairs crisp lines with softened geometric surfaces. It comes with a lifetime limited warranty.
 ')
-
-INSERT INTO item (item_name, item_image, item_brand, item_category, item_price, item_type, item_description) VALUES ()
 
 INSERT INTO item (item_name, item_image,item_brand, item_category, item_price, item_type, item_description) VALUES ('Ultima ZT1 50 in. Fabricated Deck 23HP V-Twin Kawasaki FR Series Engine Dual Hydro Drive Gas Zero Turn Riding Lawn Mower', 'https://images.thdstatic.com/productImages/b563d7dd-4404-4e71-90e7-fecd1440d0ec/svn/cub-cadet-gas-zero-turn-mowers-ultima-zt1-50-64_300.jpg', 'Cub Cadet', 14, 3799.00, 'Outdoor Power Equipment', 'Introducing the ULTIMA ZT1 SERIES. Step up to the ultimate all-around mowing experience. The Cub Cadet ULTIMA Series ZT1 50 features a 23 HP Kawasaki FR691V series Twin-cylinder OHV Engine, 2 in. x 2 in. tubular steel frame, comfortable high back seat and much more. The Ultima Zero-Turn Riding Mower was built to raise the bar for enhanced strength, durability, redefined comfort and uncompromised performance.')
 
